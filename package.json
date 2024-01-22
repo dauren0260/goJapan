@@ -1,0 +1,24 @@
+{
+  "name": "gojapan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dauren0260/goJapan.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dauren0260/goJapan/issues"
+  },
+  "homepage": "https://github.com/dauren0260/goJapan#readme",
+  "dependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
