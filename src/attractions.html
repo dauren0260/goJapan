@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <link rel="stylesheet" href="./common.css">
+    <title>景點推薦</title>
+</head>
+<body>
+    <div id="root">
+        <div class="container">
+            <h2>景點推薦</h2>
+            <div class="d-flex justify-content-around">
+                <div class="card mt-3" style="width: 18rem;">
+                    <img src="./img/spot1.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text text-primary">靜岡縣: 富士野生動物園</p>
+                        <ul>
+                            <li>費用：1,500円</li>
+                            <li>所需時間：約50分鐘</li>
+                            <li>坐在只有兩片金屬網窗保護的巴士內，邊聽導覽員的解說</li>
+                            <li>當天於入口售票處旁的「案内所」購票預約，座位數量有限先到先得</li>
+                        </ul>
+                        <a href="https://www.fujisafari.co.jp/tc/" class="btn btn-primary">官網</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">待解: 有幾個場次?</small>
+                    </div>
+                </div>
+                <div class="card mt-3" style="width: 18rem;">
+                    <img src="https://www.hsuan.com.tw/wp-content/uploads/2023/07/031-01.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text text-primary">枚方公園 Hirakata Park</p>
+                        <ul>
+                            <li>就算大人不玩設施，也可只買入園票</li>
+                            <li>也可臨時買單程遊玩券</li>
+                        </ul>
+                        <a href="https://www.hirakatapark.co.jp/tw/" class="btn btn-primary">官網</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">超過40種遊樂設施，很多都是For小朋友的設計，刺激程度中等</small>
+                    </div>
+                </div>
+                <div class="card mt-3" style="width: 18rem;">
+                    <img src="https://res-2.cloudinary.com/jnto/image/upload/w_2064,h_1300,c_fill,f_auto,fl_lossy,q_auto/v1675395719/tokyo/Tokyo_s_id25_9"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text text-primary">東京: 上野動物園</p>
+                        <p></p>
+                        <a href="https://www.tokyo-zoo.net/zoo/ueno/" class="btn btn-primary">官網</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">逢星期一休園。每年12月29日至1月1日關閉。</small>
+                    </div>
+                </div>
+                <div class="card mt-3" style="width: 18rem;">
+                    <img src="https://res-1.cloudinary.com/jnto/image/upload/w_2064,h_1300,c_fill,f_auto,fl_lossy,q_auto/v1514121323/saitama/Saitama1288_1"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text text-primary">埼玉: 鐵道博物館</p>
+                        <p>轉車台一天會有兩次動態展示，館內還設有鐵道全景模型、體驗駕駛區、餐廳。</p>
+                        <a href="https://www.railway-museum.jp/" class="btn btn-primary">官網</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary"></small>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-around">
+                <div class="card mt-3" style="width: 18rem;">
+                    <img src="https://twobunny.tw/wp-content/uploads/pixnet/1531463808-1075261295.jpg"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text text-primary">東京: 墨田水族館</p>
+
+                        <a href="https://www.sumida-aquarium.com/cn_han/index.html" class="btn btn-primary">官網</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">位在東京晴空塔城的五、六樓，室內開放式水槽，養了企鵝和海狗</small>
+                    </div>
+                </div>
+                <div class="card mt-3" style="width: 18rem;">
+                    <img src="https://www.yokohamajapan.com/zh/img_data/thg95_1.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text text-primary">橫濱: 橫濱麵包超人博物館</p>
+                        <p>１樓是商店、美食廣場和餐廳，２樓才是博物館入口和售票處，３樓才是博物館。</p>
+                        <a href="https://www.yokohama-anpanman.jp/tc/" class="btn btn-primary">官網</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary"></small>
+                    </div>
+                </div>
+                <div class="card mt-3" style="width: 18rem;">
+                    <img src="https://d1grca2t3zpuug.cloudfront.net/2021/06/odaiba2222.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text text-primary">東京台場</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">以填海造陸方式打造的巨大人工島，有DECKS TOKYO BEACH、Diver City Tokyo
+                            Plaza、富士電視台...看夜景</small>
+                    </div>
+                </div>
+                <div class="card mt-3" style="width: 18rem;">
+                    <img src="https://badboniu.com/wp-content/uploads/2021/10/1634984393-43c5105800999cf66cf1c0d4400825d1.jpg"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text text-primary">東京: 飛鳥山公園</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">賞櫻、野餐</small>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-around">
+                <div class="card mt-3" style="width: 18rem;">
+                    <img src="img/IMG_960311.PNG" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text text-primary">南町田火車站周邊景點</p>
+                        <p>黃色: 超市(像在日本的全聯價格偏便宜 但只能現金、很早就關門)</p>
+                        <p>黑色: 南町田車站</p>
+                        <p>紅色: 南町田 outlet</p>
+                        <p>綠色: 鶴間公園</p>
+                        <p>藍色: 河堤(過鶴間一號橋、左轉一分鐘,右轉的話下不去、但可以看到超級大條魚)</p>
+                        <p>紫色: 該區滿知名的飯店,但過馬路要小心,車有點多</p>
+                    </div>
+                </div>
+                <div class="card mt-3" style="width: 18rem;">
+                    <img src="" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text text-primary"></p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary"></small>
+                    </div>
+                </div>
+                <div class="card mt-3" style="width: 18rem;">
+                    <img src="https://image.kkday.com/v2/image/get/w_960%2Cc_fit%2Cq_55%2Ct_webp/s1.kkday.com/product_22396/20230214042112_ugOg9/jpg"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text text-primary">teamLab Planets TOKYO 沉浸式美術館</p>
+                        <p>展期延至2027</p>
+                        <p>在指定時間排隊後，您可能需要等待 30 至 60 分鐘</p>
+                        <p>一開始就需脫鞋襪進入，經過一段水路進入</p>
+                        <p>嬰兒車無法進入會場</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
